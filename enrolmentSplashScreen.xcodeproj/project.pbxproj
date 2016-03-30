@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E3238A1CA158E8006A3068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E323891CA158E8006A3068 /* AppDelegate.swift */; };
+		86E3238C1CA158E8006A3068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E3238B1CA158E8006A3068 /* Assets.xcassets */; };
+		86E3238F1CA158E8006A3068 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E3238D1CA158E8006A3068 /* MainMenu.xib */; };
+		86E323981CA15923006A3068 /* AppWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E323961CA15923006A3068 /* AppWindowController.swift */; };
+		86E323991CA15923006A3068 /* AppWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E323971CA15923006A3068 /* AppWindowController.xib */; };
+		86E323A01CA27F85006A3068 /* macbookpro.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E3239F1CA27F85006A3068 /* macbookpro.png */; };
+		86E323A21CA282CE006A3068 /* macbookproBars.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E323A11CA282CE006A3068 /* macbookproBars.png */; };
+		86E323A41CA290DC006A3068 /* TramsLogoHiRes.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E323A31CA290DC006A3068 /* TramsLogoHiRes.png */; };
+		86E323E31CA2D287006A3068 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 86E323DC1CA2D287006A3068 /* assets */; };
+		86E323E41CA2D287006A3068 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 86E323DD1CA2D287006A3068 /* css */; };
+		86E323E51CA2D287006A3068 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 86E323DE1CA2D287006A3068 /* images */; };
+		86E323E61CA2D287006A3068 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 86E323DF1CA2D287006A3068 /* index.html */; };
+		86E323E71CA2D287006A3068 /* muse_manifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 86E323E01CA2D287006A3068 /* muse_manifest.xml */; };
+		86E323E81CA2D287006A3068 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 86E323E11CA2D287006A3068 /* scripts */; };
+		86E323E91CA2D287006A3068 /* sitemap.xml in Resources */ = {isa = PBXBuildFile; fileRef = 86E323E21CA2D287006A3068 /* sitemap.xml */; };
+		86E323EB1CA2D507006A3068 /* setup.png in Resources */ = {isa = PBXBuildFile; fileRef = 86E323EA1CA2D507006A3068 /* setup.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86E323861CA158E8006A3068 /* enrolmentSplashScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enrolmentSplashScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E323891CA158E8006A3068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86E3238B1CA158E8006A3068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E3238E1CA158E8006A3068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		86E323901CA158E8006A3068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E323961CA15923006A3068 /* AppWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWindowController.swift; sourceTree = "<group>"; };
+		86E323971CA15923006A3068 /* AppWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppWindowController.xib; sourceTree = "<group>"; };
+		86E3239F1CA27F85006A3068 /* macbookpro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbookpro.png; sourceTree = "<group>"; };
+		86E323A11CA282CE006A3068 /* macbookproBars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbookproBars.png; sourceTree = "<group>"; };
+		86E323A31CA290DC006A3068 /* TramsLogoHiRes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TramsLogoHiRes.png; sourceTree = "<group>"; };
+		86E323DC1CA2D287006A3068 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		86E323DD1CA2D287006A3068 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		86E323DE1CA2D287006A3068 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		86E323DF1CA2D287006A3068 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		86E323E01CA2D287006A3068 /* muse_manifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = muse_manifest.xml; sourceTree = "<group>"; };
+		86E323E11CA2D287006A3068 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		86E323E21CA2D287006A3068 /* sitemap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sitemap.xml; sourceTree = "<group>"; };
+		86E323EA1CA2D507006A3068 /* setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E323831CA158E8006A3068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E3237D1CA158E8006A3068 = {
+			isa = PBXGroup;
+			children = (
+				86E323881CA158E8006A3068 /* enrolmentSplashScreen */,
+				86E323871CA158E8006A3068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E323871CA158E8006A3068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E323861CA158E8006A3068 /* enrolmentSplashScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E323881CA158E8006A3068 /* enrolmentSplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				86E323A51CA29DDF006A3068 /* HTML */,
+				86E3239A1CA27F13006A3068 /* Images */,
+				86E323891CA158E8006A3068 /* AppDelegate.swift */,
+				86E323961CA15923006A3068 /* AppWindowController.swift */,
+				86E3238B1CA158E8006A3068 /* Assets.xcassets */,
+				86E3238D1CA158E8006A3068 /* MainMenu.xib */,
+				86E323971CA15923006A3068 /* AppWindowController.xib */,
+				86E323901CA158E8006A3068 /* Info.plist */,
+			);
+			path = enrolmentSplashScreen;
+			sourceTree = "<group>";
+		};
+		86E3239A1CA27F13006A3068 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				86E323A11CA282CE006A3068 /* macbookproBars.png */,
+				86E3239F1CA27F85006A3068 /* macbookpro.png */,
+				86E323A31CA290DC006A3068 /* TramsLogoHiRes.png */,
+				86E323EA1CA2D507006A3068 /* setup.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		86E323A51CA29DDF006A3068 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				86E323DC1CA2D287006A3068 /* assets */,
+				86E323DD1CA2D287006A3068 /* css */,
+				86E323DE1CA2D287006A3068 /* images */,
+				86E323DF1CA2D287006A3068 /* index.html */,
+				86E323E01CA2D287006A3068 /* muse_manifest.xml */,
+				86E323E11CA2D287006A3068 /* scripts */,
+				86E323E21CA2D287006A3068 /* sitemap.xml */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E323851CA158E8006A3068 /* enrolmentSplashScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E323931CA158E8006A3068 /* Build configuration list for PBXNativeTarget "enrolmentSplashScreen" */;
+			buildPhases = (
+				86E323821CA158E8006A3068 /* Sources */,
+				86E323831CA158E8006A3068 /* Frameworks */,
+				86E323841CA158E8006A3068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = enrolmentSplashScreen;
+			productName = enrolmentSplashScreen;
+			productReference = 86E323861CA158E8006A3068 /* enrolmentSplashScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E3237E1CA158E8006A3068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gavin Pardoe";
+				TargetAttributes = {
+					86E323851CA158E8006A3068 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JE5LP3YU4W;
+					};
+				};
+			};
+			buildConfigurationList = 86E323811CA158E8006A3068 /* Build configuration list for PBXProject "enrolmentSplashScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86E3237D1CA158E8006A3068;
+			productRefGroup = 86E323871CA158E8006A3068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E323851CA158E8006A3068 /* enrolmentSplashScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E323841CA158E8006A3068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E323E51CA2D287006A3068 /* images in Resources */,
+				86E323A01CA27F85006A3068 /* macbookpro.png in Resources */,
+				86E323A21CA282CE006A3068 /* macbookproBars.png in Resources */,
+				86E323E81CA2D287006A3068 /* scripts in Resources */,
+				86E323E31CA2D287006A3068 /* assets in Resources */,
+				86E323A41CA290DC006A3068 /* TramsLogoHiRes.png in Resources */,
+				86E323E61CA2D287006A3068 /* index.html in Resources */,
+				86E323EB1CA2D507006A3068 /* setup.png in Resources */,
+				86E323E41CA2D287006A3068 /* css in Resources */,
+				86E323E91CA2D287006A3068 /* sitemap.xml in Resources */,
+				86E3238C1CA158E8006A3068 /* Assets.xcassets in Resources */,
+				86E3238F1CA158E8006A3068 /* MainMenu.xib in Resources */,
+				86E323E71CA2D287006A3068 /* muse_manifest.xml in Resources */,
+				86E323991CA15923006A3068 /* AppWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E323821CA158E8006A3068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E3238A1CA158E8006A3068 /* AppDelegate.swift in Sources */,
+				86E323981CA15923006A3068 /* AppWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86E3238D1CA158E8006A3068 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E3238E1CA158E8006A3068 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E323911CA158E8006A3068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86E323921CA158E8006A3068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86E323941CA158E8006A3068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = enrolmentSplashScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.enrolmentSplashScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86E323951CA158E8006A3068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = enrolmentSplashScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.gpardoe.enrolmentSplashScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E323811CA158E8006A3068 /* Build configuration list for PBXProject "enrolmentSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E323911CA158E8006A3068 /* Debug */,
+				86E323921CA158E8006A3068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E323931CA158E8006A3068 /* Build configuration list for PBXNativeTarget "enrolmentSplashScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E323941CA158E8006A3068 /* Debug */,
+				86E323951CA158E8006A3068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E3237E1CA158E8006A3068 /* Project object */;
+}
